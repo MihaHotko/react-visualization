@@ -1,11 +1,6 @@
-import React from 'react';
+import React, { FC, ReactElement } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
-
+const App: FC<{}> = (): ReactElement => (
+  <div className="App" />
+);
 export default App;
